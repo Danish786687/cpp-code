@@ -1,2 +1,3 @@
-cout<<" the comapny wants each employee to work for at least "<< target << "hours" << endl;
-    // cin>> target;
+for(int start=0;start<end;start++){
+        //     cout<< arr[start]<<endl;
+        // }
