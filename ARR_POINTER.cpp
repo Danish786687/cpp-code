@@ -23,9 +23,9 @@ using namespace std;
 int main(){
     int hours[]={5,1,2,7,4};
     int n=sizeof(hours)/sizeof(int);
-    int target=3;
-    cout<<" the comapny wants each employee to work for at least "<< target << "hours" << endl;
-    cin>> target;
+    int target=10;
+    // cout<<" the comapny wants each employee to work for at least "<< target << "hours" << endl;
+    // cin>> target;
     for(int i=0;i<n;i++){
         if(hours[i]>=target){
             
