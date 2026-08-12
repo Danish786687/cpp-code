@@ -1,3 +1,5 @@
-for(int start=0;start<end;start++){
-        //     cout<< arr[start]<<endl;
-        // }
+#include<iostream>
+#include<climits>
+using namespace std;
+
+void trap(int *height,int n){
