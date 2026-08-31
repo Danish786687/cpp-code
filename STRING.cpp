@@ -22,20 +22,35 @@ int main(){
     //  cout<< arr[3] << endl ;
     //  cout<< arr[4] << endl ;
 
-    char arr[5]={'a','b','c','d','\0'};
-     cout<< arr << endl ;
+    // char arr[5]={'a','b','c','d','\0'};
+    //  cout<< arr << endl ;
 
      //"danish is my name" // striing literls
      // "hello" // stirng literal there value is not changes
 
-     char work[]="code";  //last me null chrtr hoga
-     cout<< work << endl;
-     char work1[5]="code";
-     cout << work1 << endl;
+    //  char work[]="code";  //last me null chrtr hoga
+    //  cout<< work << endl;
+    //  char work1[5]="code";
+    //  cout << work1 << endl;
 
-     char work3[50]={'c','o','d','e','\0'};
-     cout<< work3 << endl;
+    //  char work3[50]={'c','o','d','e','\0'};
+    //  cout<< work3 << endl;
 
-     cout<< strlen(work3) <<endl ;
+    //  cout<< strlen(work3) <<endl ;
+
+
+    // char word[50];
+    // cout<< " enetr any string : ";
+    // cin >> word;  //ignor ewhite spacess
+
+    // cout << "your string was : " << word << endl ;
+    // return 0;
+
+    char sentence[30];
+    cout<< " enetr any string : ";
+    cin.getline(sentence,30,'*');  //string mmust contain * otherwise till memory it will not stop to enetring the str value
+    cout << "your string was : " << sentence<< endl ;
+    cout <<"length : " << strlen(sentence) << endl;
+
 
 }
