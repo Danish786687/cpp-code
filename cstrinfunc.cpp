@@ -31,6 +31,8 @@
 // 0 >>>>>>>>>>>>>>> if both are equal
 // postive value >> if str1 is  large   (acc. to the ASCII value of each letter first)
 // nagative value >> if str1 is small
+//note: no relation of length only based on ascii value of each chrtr
+
 
 #include<iostream>
 #include<cstring>
@@ -40,4 +42,6 @@ int main(){
     char str1[]="zaaaaa";
     char str2[]="xyz";
     cout << strcmp(str1,str2) << endl;
+
+
 }
