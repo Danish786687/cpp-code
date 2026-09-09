@@ -7,7 +7,7 @@ int main(){
     cout<< "enter column : ";
     cin >> cols;
 
-    int* *mat = new int*[row];
+    int* *mat = new int*[row];    //imporatnt 3 lines
 
     for(int i=0 ; i<row; i++){
         mat[i]= new int[cols];
