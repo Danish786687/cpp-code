@@ -13,7 +13,7 @@ vector<int> pairsum(vector<int>arr,int target){
         if(currsum==target){
             ans.push_back(st);
             ans.push_back(end);
-            return ans;  //if found sum then exit  or it can use 
+            return ans;  //if found sum then exit  or it can use return{st,end};
 
         }
         else if(currsum>target){

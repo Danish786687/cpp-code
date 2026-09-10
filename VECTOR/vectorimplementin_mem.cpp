@@ -8,7 +8,7 @@ int main(){
     cout<< "vector capacity : " << vec.capacity() << endl;
 
     //addding eleemnt in exisitng vector
-    vec.push_back(4);
+    vec.push_back(4);  //element goes into the argument not the size
     cout<< "vector size : " << vec.size() << endl;
     cout << "vector capacity : " << vec.capacity() << endl;
 
