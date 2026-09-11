@@ -12,5 +12,5 @@ int main(){
 
     cout << (5>>3) <<endl;  //right shift
 
-   cout<< (~4) << endl;
+   cout<< (~11) << endl;
 }
