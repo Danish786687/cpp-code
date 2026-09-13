@@ -4,7 +4,7 @@
  int clear_ith_bit(int num,int i){
     int mask= ~(1<<i);
     num=num&mask;
-    cout<< "after clear bit will be :" << num << endl;
+    cout<< "after clear bit will be : " << num << endl;
     
  }
 

@@ -29,7 +29,7 @@ using namespace std;
 // }
 
 void evenodd(int num){
-    if(num&1){     
+    if(num&1){     //if me agr 0 aata hai to false ki trh treat hotaa haii or 0 ke elawa true treat hota hai
         cout<< "odd number" << endl;
     }
     else{

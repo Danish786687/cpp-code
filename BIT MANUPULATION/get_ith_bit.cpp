@@ -14,8 +14,8 @@ int getithbit(int num,int i){
 
 
 int main(){
-    cout << getithbit(6,2) << endl;
-    cout << getithbit(7,5) <<endl ;
+    cout << getithbit(6,2) << endl;  //1
+    cout << getithbit(7,5) <<endl ; //0
 
     return 0;
   
