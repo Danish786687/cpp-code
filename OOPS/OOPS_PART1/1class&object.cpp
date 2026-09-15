@@ -15,7 +15,7 @@ class Student{
 };
 
 class User{
-    //properties
+    //properties  // by default this is private
     string username;
     string passwrod;
     string bio;

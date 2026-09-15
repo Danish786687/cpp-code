@@ -18,7 +18,7 @@ public:
         this->name=name; //nameval
         this->color=color; //colorval
     }
-
+    //settter
     void start(){
         cout<< "car has started" << endl;
     }
@@ -44,3 +44,36 @@ int main(){
     return 0;
 
 }
+
+// #include <iostream>
+// using namespace std;
+
+// class Student {
+// public:
+//     Student() {
+//         cout << "1. Constructor Executed!" << endl;
+//     }
+// };
+
+// int main() {
+//     cout << "Start of Main" << endl;
+
+//     Student s3; // <-- Yahan pehle Constructor chalega
+
+//     cout << "2. Code after s3 creation" << endl; // <-- Ye line baad me chalegi
+
+//     return 0;
+// }
+
+
+// // Sahi tareeka (this ka use karke - Name same ho sakte hain)
+// Car(string name, string color) {
+//     this->name = name;   // Class variable = Parameter variable
+//     this->color = color;
+// }
+
+// // Without 'this' (Name alag rakhne padenge)
+// Car(string n, string c) {
+//     name = n;   // Direct assign ho gaya
+//     color = c;
+// }
