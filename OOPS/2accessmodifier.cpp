@@ -13,7 +13,7 @@ public:
         cout<< (cgpa*10) << endl;
     }
 
-//SETTERS......
+//SETTERS......Setter function to modify private data safely
 void setname(string nameval){
     name=nameval;
 }
@@ -36,8 +36,11 @@ float getcgpa(){
 
 int main(){
     Student s1;
+    // s1.cgpa = 8.5; // ❌ ERROR: 'cgpa' is private
+
     s1.setname("danish");
     s1.setcgpa(9.3);
+
 
     cout<< s1.getname() << endl ;
     cout << s1.getcgpa() << endl;

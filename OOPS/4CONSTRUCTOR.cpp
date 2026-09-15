@@ -15,8 +15,8 @@ public:
     //constructor parameter
     Car(string name ,string color){//OR colorval
         cout<< "construct with parameter..." << endl;
-        this->name=name;
-        this->color=color;
+        this->name=name; //nameval
+        this->color=color; //colorval
     }
 
     void start(){

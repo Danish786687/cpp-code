@@ -1,29 +1,43 @@
-#include <iostream>
-#include <string>
+#include<iostream>
 using namespace std;
 
-class Student {
-public: // Made members public so they can be accessed from main()
-    // Properties
+class Student{
+    
+    //properties
     string name;
     float cgpa;
 
-    // Methods / Member functions
-    void getpercentage() {
-        cout << (cgpa * 10) << endl;
+    //methods/memebr function/function
+    void getpercentage(){
+        cout<< (cgpa*10) << endl;
+    }
+
+};
+
+class User{
+    //properties
+    string username;
+    string passwrod;
+    string bio;
+
+    //method
+    void deactivate(){
+        cout<< "deleting the account." << endl;
+    }
+    void editbio(string newbio){
+        bio=newbio;
     }
 };
 
-int main() {
+
+int main(){
+    //object 1
     Student s1;
-
-    // Optional: initializing properties
-    s1.name = "John";
-    s1.cgpa = 8.5;
-
-    // Accessing member function and checking size
-    s1.getpercentage();
-    cout << "Size of object: " << sizeof(s1) << " bytes" << endl;
+    cout<< sizeof(s1) << endl;
+   
+    //object 2
+    Student s2;
 
     return 0;
+
 }
