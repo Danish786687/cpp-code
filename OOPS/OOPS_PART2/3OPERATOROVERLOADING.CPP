@@ -21,11 +21,11 @@ public:
 
     //oprator overlaoding
     Complex operator +(Complex &c2){
-        int resreal=this->real +c2.real;
+        int resreal=this->real +c2.real;   //this=c1
         int resimg=this->img +c2.img;
         Complex c3(resreal , resimg);
         return c3;
-    }
+    } 
  
 
 };
